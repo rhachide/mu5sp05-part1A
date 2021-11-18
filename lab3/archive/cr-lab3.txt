@@ -1,0 +1,12 @@
+1.Ouverture de la session
+2.Démarrer le terminal
+3.git clone + url de monsieur hachicha %si je fais ça a partir de mon rep mu5sp05-part1 ou j'ai déja cré un lab3 quand je clone le lien qui a été donné sur slack il replace automatiquement le contenu de mon lab3 avec le lab3 de monsieur hachicha par contre il faut supprimer le .git ( avec la commande rm -rf .git ) du lab3 de monsieur hachicha comme ça on garde notre .git qui est le rep mu5sp05-part1 
+4.On trouve un repertoire (sardar) et 3 fichiers (answering-machine.txt/README.md/
+Microsoft / ls -lrt on trouve sardar qui fait 4096oct/README.md qui fait 31oct/Microsoft qui fait 34359/answering-machine.txt qui fait 70408oct/cr-lab3.txt qui fait 0oct (car il était vide au moment ou j'ai tapé la commande)
+5.La taille du répertoire sardar n'est pas correcte car quand on fait cd sardar et on fait ls -lrt on trouve que sardar fait 108koct et la somme des fichiers dedans fait 101780koct, on peut déduire que ce qu'on affiche avec ls -lrt sur un rep on affiche la taille de l'inode et pas la taille du rep sardar seulement
+6.On remarque qu'en tapant du Microsoft on trouve 36koct et en tapant ls -lrt Microsoft on trouve 34359oct, la différence c'est qu'en tappant ls -lrt Microsoft ça donne la taille réelle du fichier et la commande du Microsoft nous donne la taille du fichier tel qu'il réside sur le système de fichiers ( j'ai essayé la même chose pour le rep sardar avec ls-lrt on trouve 108koct et avec du on trouve 112koct on remarque que y a 4koct de difference et c'est du a la taillé aloué pour stocké le rep sardar )
+7.stat Microsoft / on remarque qu'on a pleins d'informations sur le fichier (les o/s,la taille des blocs, les accés...) sans ses informations le fichier n'est pas défini 
+8.Pour afficher un fichier cacher on tape la commande ls -a ( tout affiché même les fichers cachés sinon la commande ls -d .* pour afficher que les fichiers et dossiers cacher/ le fichier cacher est : .lightbulb
+9.ls -ltr 
+10.
+

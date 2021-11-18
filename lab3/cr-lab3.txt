@@ -1,0 +1,43 @@
+1.Ouverture de la session
+2.Démarrer le terminal
+3.git clone + url de monsieur hachicha %si je fais ça a partir de mon rep mu5sp05-part1 ou j'ai déja cré un lab3 quand je clone le lien qui a été donné sur slack il replace automatiquement le contenu de mon lab3 avec le lab3 de monsieur hachicha par contre il faut supprimer le .git ( avec la commande rm -rf .git ) du lab3 de monsieur hachicha comme ça on garde notre .git qui est le rep mu5sp05-part1 
+4.On trouve un repertoire (sardar) et 3 fichiers (answering-machine.txt/README.md/
+Microsoft / ls -lrt on trouve sardar qui fait 4096oct/README.md qui fait 31oct/Microsoft qui fait 34359/answering-machine.txt qui fait 70408oct/cr-lab3.txt qui fait 0oct (car il était vide au moment ou j'ai tapé la commande)
+5.La taille du répertoire sardar n'est pas correcte car quand on fait cd sardar et on fait ls -lrt on trouve que sardar fait 108koct et la somme des fichiers dedans fait 101780koct, on peut déduire que ce qu'on affiche avec ls -lrt sur un rep on affiche la taille de l'inode et pas la taille du rep sardar seulement
+6.On remarque qu'en tapant du Microsoft on trouve 36koct et en tapant ls -lrt Microsoft on trouve 34359oct, la différence c'est qu'en tappant ls -lrt Microsoft ça donne la taille réelle du fichier et la commande du Microsoft nous donne la taille du fichier tel qu'il réside sur le système de fichiers ( j'ai essayé la même chose pour le rep sardar avec ls-lrt on trouve 108koct et avec du on trouve 112koct on remarque que y a 4koct de difference et c'est du a la taillé aloué pour stocké le rep sardar )
+7.stat Microsoft / on remarque qu'on a pleins d'informations sur le fichier (les o/s,la taille des blocs, les accés...) sans ses informations le fichier n'est pas défini 
+8.Pour afficher un fichier cacher on tape la commande ls -a ( tout affiché même les fichers cachés sinon la commande ls -d .* pour afficher que les fichiers et dossiers cacher/ le fichier cacher est : .lightbulb
+9.ls -ltr 
+10.du -a --max-depth=1 | sort -n
+11. cat answering-machine.txt
+12. more answering-machine.txt (on appui entrer pour passer a la page suivante)
+13. pour installer l'éditeur vim, il faut tapper la commande sudo apt install vim
+  . pour afficher le contenu d'un fichier, il faut tapper la commande vim + nom du fichier 
+14. pour acceder a la derniére ligne, on tape (G) une fois dans le fichier ( faut s'assurer a être en mode navigation 
+  . :wq pour sauvgarder le fichier et quitter en même temps 
+15. pour chercher le mot gravelly, on tape la commande /gravelly
+  . pour supprimer ce mot, on tape la commande dw (une fois le mot trouvé) 
+16. :w pour sauvegarder le ficher 
+17. /planet pour aller au mot planet dans le fichier, on tape ENTRER,si on tape n on passe a la seconde occurence 
+19. ?BEEF pour chercher le dernier mot BEEF, on tape ENTRER, si on tape n on passe au mot BEEF précedent 
+20. tail -20 sardar3.txt
+21. grep trust Microsoft
+22. grep -r money sardar
+23. grep -r Money sardar
+24. mv .lightbulb lightbulb 
+25. cd sardar (pour rentrer dans le repertoire sardar)
+  . pwd ( pour afficher le repertoire courant)
+26. mv sardar3.txt /home/rhachide/Bureau/mu5sp05-part1/lab3 
+27. cd ..
+28. rm Microsoft
+29. cp answering-machine.txt cr-lab3.txt README.md sardar3.txt lightbulb archive
+  . cp -r sardar archive
+30. ln -s /home/rhachide/Bureau/mu5sp05-part1/lab3/sardar/sardar1.txt /home/rhachide/Bureau/mu5sp05-part1/lab3/sardar/sardar2.txt /home/rhachide/Bureau/mu5sp05-part1/lab3/archive
+31. Oui, c'est facile a identifié les liens car ils ont une couleur différente des autres fichiers ( couleur bleu ) 
+32. quand j'ai supprimé le fichier sardar/sardar2.txt je vois que je ne peux pas l'ouvrir du répertoire ou j'ai mis le lien symbolique et ça couleur a changé ( rouge ), je ne peux plus ouvrir le fichier texte sardar2.txt depuis mon répertoire courant 
+33. On retrouve ce message d'erreur (E45: L'option 'readonly' est activée (ajoutez ! pour passer outre)) car on a supprimé le droit d'écriture
+34. ls -l pour afficher le droit d'accés pour différents fichiers 
+  . chmod u+w sardar1.txt ( pour rajouté le droit d'écriture sur le fichier ) 
+  . On peut bien rajouté du texte et sortir en enregistrant aprés avoir ajouté le droit d'écriture 
+36. tar -cjvf archive.tar.bz2 /home/rhachide/Bureau/mu5sp05-part1/lab3 
+37. tar jtvf archive.tar.bz2

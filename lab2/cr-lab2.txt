@@ -1,0 +1,20 @@
+1. Créer un répertoire  : mkdir + nom du rep
+2.Accéder  a un répertoire : cd + nom du rep/Créer un fichier : touch + nom du fichier
+.écrire dans un fichier : echo message a écrire >> le nom du fichier
+.Afficher le contenu d’un fichier : cat ou less + nom du fichier % avec less on doit taper sur q a la fin pour sortir de la lecture 
+%ls: regarder le contenu d’un rep (on doit être dans le repertoire avant de taper ls) 
+%pwd : afficher le chemin  
+%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 (personnel access Token)
+3.git init : mentionner que ce répertoire sera un git repository
+4.git status %si c'est en rouge ça veut dire que le fichier n'est pas encore rajouté a l'index
+5.git add + nom du rep : creer l'index %quand on tape git status aprés on va bien que le fichier a été ajouté
+6.git commit -m  : local repository prét a être envoyer sur un serveur distant % faut pas oublié un message initial 
+7.sur le github
+8.git remote add origin [https://github.com/votrecompte/toto.git]                                                                                             
+.git push -u origin master %Connecter le local repository au remote repository
+9.sur github 
+10.git pull : %pour mettre à jour le répertoire locale
+11.git clone [URL-to-git-HUB] : %cloner un depot distant créer un dossier et recuperer les fichiers 
+12.même chose qu'on a fait avant
+13.on trouve bien la bonne synchronisation entre les deux répertoires
+14.git config credential.helper store 

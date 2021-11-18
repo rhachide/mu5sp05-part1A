@@ -1,0 +1,514 @@
+    1  sudo apt-get install virtualbox-guest-dkms
+    2  sudo apt-get install virtualbox-guest-utils
+    3  sudo apt-get install virtualbox-guest-x11
+    4  sudo apt-get install xserver-xorg-core
+    5  sudo reboot
+    6  sudo apt install git gitk git-email
+    7  git config --global user.name "Mehdi"
+    8  git config --global user.email mehdirhachide@gmail.com
+    9  git config --global user.name 
+   10  git config --global user.email 
+   11  mkdir test
+   12  ls
+   13  pwd
+   14  cd test
+   15  pwd
+   16  touch RHACHIDE
+   17  ls
+   18  echo hello M2 syscom >> RHACHIDE
+   19  ls
+   20  cd RHACHIDE
+   21  ls
+   22  cat RHACHIDE
+   23  cd
+   24  pwd
+   25  ls
+   26  cd test
+   27  ls
+   28  less RHACHIDE
+   29  ls
+   30  cat RHACHIDE
+   31  ls
+   32  cd
+   33  cd test
+   34  git init
+   35  git status
+   36  git add
+   37  cd
+   38  git init
+   39  git status
+   40  cd test
+   41  git init
+   42  git status
+   43  git add RHACHIDE
+   44  git status
+   45  git diff
+   46  git status
+   47  git commit -m
+   48  git commit -m 'test'
+   49  git remote add origin https://github.com/rhachide/lab2test.git
+   50  git push -u origin master
+   51  cd
+   52  git init
+   53  git status
+   54  cd test
+   55  git init
+   56  git status
+   57  git add RHACHIDE
+   58  git status
+   59  git remote add origin https://github.com/rhachide/lab2test.git
+   60  git push -u origin master
+   61  git pull
+   62  ls
+   63  cat README.md
+   64  git pull
+   65  ls
+   66  cat README.md
+   67  cd
+   68  ls
+   69  cd Téléchargements
+   70  ls
+   71  git clone https://github.com/rhachide/lab2test.git
+   72  ls
+   73  cd lab2test
+   74  ls
+   75  cd
+   76  ls
+   77  pwd
+   78  cd Téléchargements
+   79  ls
+   80  cd
+   81  ls
+   82  cd Bureau
+   83  mkdir mu5sp05-part1
+   84  cd mu5sp05-part1
+   85  mkdir lab2
+   86  mkdir lab3
+   87  mkdir lab4
+   88  mkdir lab5
+   89  mkdir lab6
+   90  mkdir lab7
+   91  mkdir lab8
+   92  mkdir lab9
+   93  mkdir lab10
+   94  ls
+   95  cd lab2
+   96  ls
+   97  pwd
+   98  touch cr-lab2.txt
+   99  ls
+  100  cd
+  101  ls
+  102  cd Bureau
+  103  ls
+  104  cd mu5sp05-part1
+  105  git init
+  106  git status
+  107  git add lab2
+  108  git status
+  109  git remote add origin https://github.com/rhachide/mu5sp05-part1.git
+  110  git push -u origin master
+  111  git commit -m 'lab2'
+  112  git remote add origin https://github.com/rhachide/mu5sp05-part1.git
+  113  git push -u origin master
+  114  git init
+  115  git add lab2
+  116  git commit -m 'lab2'
+  117  git remote add origin https://github.com/rhachide/mu5sp05-part1.git
+  118  git push -u origin master
+  119  git config credential.helper store
+  120  ls
+  121  mkdir lab11
+  122  git init
+  123  git add lab2
+  124  git status
+  125  git push -u origin master
+  126  git init
+  127  git status
+  128  git add .
+  129  git status
+  130  git commit -m 'hee'
+  131  git remote add origin https://github.com/rhachide/mu5sp05-part1.git
+  132  git config credential.helper store
+  133  git push -u origin master
+  134  git init
+  135  git add .
+  136  git status
+  137  git remote add origin https://github.com/rhachide/mu5sp05-part1.git
+  138  git push -u origin master
+  139  git init
+  140  git add .
+  141  git commit -m 'hee'
+  142  git remote add origin https://github.com/rhachide/mu5sp05-part1.git
+  143  git push -u origin master
+  144  git init
+  145  git add .
+  146  git commit -m 'hee'
+  147  git push -u origin master
+  148  git init
+  149  git add .
+  150  git commit -m 'hee'
+  151  git remote add origin https://github.com/rhachide/mu5sp05-part1.git
+  152  git push -u origin master
+  153  git clone https://github.com/khachicha/lab3.git
+  154  ls
+  155  cd lab3
+  156  ls
+  157  cd ..
+  158  ls
+  159  cd lab3
+  160  ls
+  161  touch cr-lab3.txt
+  162  ls-lrt
+  163  ls -lrt
+  164  cd sardar
+  165  ls
+  166  ls -lrt
+  167  ls
+  168  cd ..
+  169  lq
+  170  ls
+  171  cd ..
+  172  ls
+  173  cd lab3
+  174  ls
+  175  ls .git
+  176  rm -rf .git
+  177  ls
+  178  cd ..
+  179  ls
+  180  cd lab3
+  181  ls .git
+  182  ls
+  183  du Microsoft
+  184  ls Microsoft
+  185  ls -lrt Microsoft
+  186  du sardar
+  187  ls -lrt sardar
+  188  stat
+  189  stat Microsoft
+  190  ls
+  191  stat cr-lab3.txt 
+  192  stat sardar/
+  193  ls =lrt
+  194  ls -lrt
+  195  ls
+  196  ls -a
+  197  ls -d .*
+  198  ls -t
+  199  ls -t*
+  200  ls -ltr
+  201  df -h
+  202  ls -rl --sort=size 
+  203  mkdir val
+  204  ls
+  205  rm -r val
+  206  ls
+  207  du -a --max-depth=1 | sort -n
+  208  ls -ltr
+  209  ls
+  210  -d .*
+  211  -d.*
+  212  ls -d .*
+  213  ls -a
+  214  du -a --max-depth=1 | sort -n
+  215  cat answering-machine.txt
+  216  less  answering-machine.txt
+  217  more  answering-machine.txt
+  218  apt install
+  219  apt install vim
+  220  sudo apt install vim
+  221  :e answering-machine.txt
+  222  vim
+  223  vim answering-machine.txt
+  224  vim sardar3.txt
+  225  ls
+  226  pwd
+  227  ls -a
+  228  more sardar3.txt
+  229  ls
+  230  cd sardar
+  231  ls
+  232  more sardar3.txt
+  233  vim sardar3.txt
+  234  tail -20 sardar3.txt
+  235  ls
+  236  cd ::
+  237  cd ..
+  238  ls
+  239  cd Microsoft
+  240  vim Microsoft
+  241  grep trust Microsoft
+  242  vim Microsoft
+  243  grep money
+  244  cd mu5sp05-part1
+  245  ls
+  246  cd Bureau
+  247  ls
+  248  cd mu5sp05-part1
+  249  ls
+  250  cd lab3
+  251  ls
+  252  grep trust Microsoft
+  253  grep -r monney Mirosoft
+  254  grep -r monney Microsoft
+  255  ls
+  256  cat Microsoft
+  257  grep money Microsoft
+  258  grep money lab3
+  259  grap -r money Microsoft
+  260  grep -r money Microsoft
+  261  grep -r money sardar
+  262  ls
+  263  grep -r money lab3
+  264  ls
+  265  grep -r money sardar
+  266  grep -r Money sardar
+  267  ls
+  268  ls -a
+  269  mv .lightbulb lightbulb
+  270  ls
+  271  cd sardar/
+  272  ls
+  273  pwd
+  274  ls
+  275  mv sardar3.txt lab3
+  276  ls
+  277  cd ..
+  278  ls
+  279  ls -a
+  280  mv lab3 sardar3.txt
+  281  ls
+  282  cd sardar
+  283  ls
+  284  cat lab3
+  285  mv lab3 sardar3.txt
+  286  ls
+  287  mv sardar3.txt /home/rhachide/Bureau/mu5sp05-part1/lab3
+  288  ls
+  289  cd..
+  290  cd ..
+  291  ls
+  292  cat sardar3.txt
+  293  ls
+  294  rm Microsoft
+  295  ls
+  296  ls -a
+  297  cd ..
+  298  mkdir archive
+  299  ls
+  300  rm -r archive
+  301  ls
+  302  cd lab3
+  303  ls
+  304  mkdir archive
+  305  ls
+  306  pwd
+  307  cp /home/rhachide/Bureau/mu5sp05-part1/lab3 /home/rhachide/Bureau/mu5sp05-part1/lab3/archive
+  308  cp -r /home/rhachide/Bureau/mu5sp05-part1/lab3 /home/rhachide/Bureau/mu5sp05-part1/lab3/archive
+  309  ls
+  310  cp -r lab3 /home/rhachide/Bureau/mu5sp05-part1/lab3/archive
+  311  cp -rlab3 /home/rhachide/Bureau/mu5sp05-part1/lab3/archive
+  312  cp -r lab3 /home/rhachide/Bureau/mu5sp05-part1/lab3/archive
+  313  cd ..
+  314  cp -r lab3 /home/rhachide/Bureau/mu5sp05-part1/lab3/archive
+  315  cd lab3
+  316  ls
+  317  cp answering-machine.txt cr-lab3.txt README.md sardar3.txt lightbulb archive
+  318  ls
+  319  cd archive
+  320  ls
+  321  cd lab3
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd ..
+  326  ls
+  327  cp -r sardar archive
+  328  cd archive
+  329  ls
+  330  cd ..
+  331  cd archive
+  332  ls
+  333  cd ..
+  334  ls
+  335  cd archive
+  336  ls
+  337  cd ..
+  338  ls
+  339  cd archive
+  340  ls
+  341  cd ..
+  342  cd archive
+  343  ls
+  344  cd lab3
+  345  ls
+  346  cd ..
+  347  ls
+  348  cd ..
+  349  ls
+  350  ls -a
+  351  ls -ra
+  352  cd archive
+  353  ls
+  354  rm lab3
+  355  rm -r lab3
+  356  ls
+  357  cd sardar
+  358  ls
+  359  cd ..
+  360  ls
+  361  cd archive
+  362  ls
+  363  ln -s /sardar /archive
+  364  cd ..
+  365  ln -s /sardar /archive
+  366  ls
+  367  pwd
+  368  ln -s /home/rhachide/Bureau/mu5sp05-part1/lab3/sardar /archive
+  369  ln -s /home/rhachide/Bureau/mu5sp05-part1/lab3/sardar /home/rhachide/Bureau/mu5sp05-part1/lab3/archive
+  370  cd sardar
+  371  ls
+  372  ln -s sardar1.txt sardar2.txt /archive
+  373  cd ..
+  374  ls
+  375  ln -s sardar1.txt sardar2.txt /archive
+  376  ln -s sardar1.txt sardar2.txt /home/rhachide/Bureau/mu5sp05-part1/lab3/archive
+  377  ls
+  378  cd archive
+  379  ls
+  380  cat sardar1.txt
+  381  ln -s /home/rhachide/Bureau/mu5sp05-part1/lab3/sardar/sardar1.txt /home/rhachide/Bureau/mu5sp05-part1/lab3/sardar/sardar2.txt /home/rhachide/Bureau/mu5sp05-part1/lab3/archive
+  382  ls -l sardar1.txt
+  383  rm /home/rhachide/Bureau/mu5sp05-part1/lab3/sardar/sardar1.txt
+  384  rm /home/rhachide/Bureau/mu5sp05-part1/lab3/sardar/sardar2.txt
+  385  ls
+  386  cd ..
+  387  ls
+  388  cd sardar
+  389  ls
+  390  rm /home/rhachide/Bureau/mu5sp05-part1/lab3/archive/sardar1.txt
+  391  cd ..
+  392  cd archive
+  393  ls
+  394  rm /home/rhachide/Bureau/mu5sp05-part1/lab3/archive/sardar2.txt
+  395  ls
+  396  cd ..
+  397  cd sardar
+  398  ls
+  399* ln -s /home/rhachide/Bureau/mu5sp05-part1/lab3/sardar/sardar1.txt /home/rhachide/Bureau/mu5sp05-part1/lab3/sardar/sardar2.txt /home/rhachide/Bureau/mu5sp05-part1/lab3/archive
+  400  ls
+  401  cd ..
+  402  cd archive
+  403  ls
+  404  cat sardar1.txt
+  405  ls
+  406  cd sardar
+  407  ls
+  408  cd ..
+  409  cd sardar
+  410  ls
+  411  rm sardar2.txt
+  412  ls
+  413  cd ..
+  414  cd archive
+  415  ls
+  416  cd sardar2.txt
+  417  cd ..
+  418  cd sardar
+  419  ls -l
+  420  chmod u-w sardar1.txt
+  421  ls -l
+  422  vim sardar1.txt
+  423  ls -l
+  424  cd ..
+  425  cd archive
+  426  ls -l
+  427  cd ..
+  428  cd sardar
+  429  ls
+  430  ls -l
+  431  chmod u+w sardar1.txt
+  432  ls -l
+  433  vim sardar1.txt
+  434  cd ..
+  435  tar -czvf .tar.bz2 /home/rhachide/Bureau/mu5sp05-part1/lab3
+  436  tar -cjvf archive.tar.bz2 /home/rhachide/Bureau/mu5sp05-part1/lab3
+  437  tar -jtvf archive.tar.bz2 /home/rhachide/Bureau/mu5sp05-part1/lab3
+  438  tar jtvf archive.tar.bz2 /home/rhachide/Bureau/mu5sp05-part1/lab3
+  439  tar jtvf archive.tar.bz2 
+  440  git init
+  441  git status
+  442  git add 
+  443  git add lab3
+  444  cd ..
+  445  git init
+  446  git status
+  447  git add lab3
+  448  git add lab3/
+  449  git add
+  450  git add .
+  451* 
+  452  git init
+  453  git add .
+  454  git status
+  455  git commit -m 'lab3"
+git status
+
+
+  456  git commit -m 'lab3'
+  457  git remote add origin https://github.com/rhachide/mu5sp05-part1.git
+  458  git push -u origin master
+  459  cd ..
+  460  git pull
+  461  ls
+  462  cd lab4
+  463  ls
+  464  cd ;;
+  465  cd ..
+  466  ls
+  467  cd lab3
+  468  ls
+  469  ls .git
+  470  rm -rf .git
+  471  ls
+  472  cd ..
+  473  ls
+  474  git init
+  475  git add .
+  476  ls
+  477  git commit -m "test"
+  478  ls
+  479  git add origin https://github.com/rhachide/mu5sp05-part1.git
+  480  git remote add origin https://github.com/rhachide/mu5sp05-part1.git
+  481  git remote remove
+  482  git remote remove origin
+  483  git remote add origin https://github.com/rhachide/mu5sp05-part1.git
+  484  git push origin master
+  485  git config credential.helper store
+  486  git push origin master
+  487  cd lab3
+  488  ls
+  489  cd archive
+  490  ls
+  491  cd ..
+  492  cd lab4
+  493  ls
+  494  git clone https://github.com/khachicha/lab4.git
+  495  ls
+  496  cd lab4
+  497  ls
+  498  rm -rf .git
+  499  cd ..
+  500  git clone https://github.com/khachicha/lab4.git
+  501  ls
+  502  rm -r lab4
+  503  ls
+  504  git clone https://github.com/khachicha/lab4.git
+  505  ls
+  506  cd lab4
+  507  ls
+  508  touch cr-lab4.txt
+  509  ls
+  510  history
+  511  history > history.txt

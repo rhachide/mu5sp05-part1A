@@ -1,0 +1,24 @@
+1. git clone https://github.com/khachicha/lab4.git
+2. history
+3. history > history.txt % On redirige la sortie de la commande dans un fichier et même si le fichier n'existe pas il va le créer 
+4. cat sardar/sardar1.txt sardar/sardar2.txt sardar/sardar3.txt > sardar_power.txt fichier aprés fichier ou bien avec la commande cat sardar/* > sardar_power.txt en une seule fois dans l'ordre aussi 
+5. wc -lwm sardar_power.txt % -l pour le nombre de lignes -w pour le nombre de mots et -m pour le nombre de caractéres 
+ . on trouve 1980 %lignes  16783 %mots 101778 %car dans le fichier sardar_power.txt
+6. grep -i singh sardar_power.txt
+7. rm sardar_power.txt
+8. grep -i singh sardar/*
+9. grep -ci singh sardar/*
+10.grep -i singh sardar/*| grep -ic santa
+11.grep -i santa sardar/* | grep -i singh | grep -vci banta
+12.find ./ | grep .txt
+13.cp answering-machine.txt test-commande-locate
+locate test-commande-locate % on remarque que les informations du fichier qu'on vient de créer ne sont pas stocké dans la base immédiatement donc quand on tape locate... il ne retrouve pas le fichier voulu 
+14.On a mit a jour la base de locate avec la commande updatedb % on retrouve bien notre fichier aprés l'avoir fait 
+15.diff noyau.v1 noyau.v2 nous affiche le numéro de ligne et le contenu qui différe
+16.sudo apt install tkdiff % aprés l'avoir installé c'est plus propre et c'est plus facile de voir la différence ( couleur...)
+17.diff noyau.v1 noyau.v2> update.patch % stocker la diff dans un patch
+   patch noyau.v1 < update.patch % mettre le patch sur le fichier 1
+   diff noyau.v1 noyau.v2 ou tkdiff % pas de difference aprés avoir utiliser le patch sur le premier fihier 
+  
+ 
+
